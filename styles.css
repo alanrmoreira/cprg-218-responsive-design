@@ -7,9 +7,20 @@ body{
     color: white;
 }
 
+img{
+    float: right;
+    width: 50%;
+}
+
 @media screen and (max-width:480px) {
     body{
         background-color: red;
+    }
+    img{
+        width: 100%;
+    }
+    p{
+        font-size: 22px;
     }
 }
 
