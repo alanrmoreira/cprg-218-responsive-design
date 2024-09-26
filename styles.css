@@ -12,3 +12,9 @@ body{
         background-color: red;
     }
 }
+
+@media screen and (max-width:20px) {
+    body{
+        background-color: yellow;
+    }
+}
